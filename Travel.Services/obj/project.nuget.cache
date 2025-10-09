@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9ig98x/4FCQ=",
+  "dgSpecHash": "u7VLuZtiXtk=",
   "success": true,
   "projectFilePath": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel.Services\\Travel.Services.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mijnk\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
+  ],
   "logs": []
 }
