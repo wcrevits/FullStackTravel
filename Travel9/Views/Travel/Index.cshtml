@@ -1,0 +1,54 @@
+﻿@model Travel9.ViewModels.TravelVM
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<h4>TravelVM</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Index">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="DepartureCode" class="control-label"></label>
+                <select class="form-control" asp-for="DepartureCode"
+                        asp-items="Model.CountryList">
+                    <option disabled selected value="">Select a Country</option>
+                </select>
+                <span asp-validation-for="DepartureCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ArrivalCode" class="control-label"></label>
+                <select class="form-control" asp-for="ArrivalCode"
+                        asp-items="Model.CountryList">
+                    <option disabled selected value="">Select a Country</option>
+                </select>
+                <span asp-validation-for="ArrivalCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EndDate" class="control-label"></label>
+                <input asp-for="EndDate" class="form-control" />
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

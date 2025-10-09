@@ -1,7 +1,13 @@
+using Travel.Services;
+using Travel.Services.Interfaces;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// DI
+builder.Services.AddTransient<ITravelService, TravelService>();
 
 var app = builder.Build();
 

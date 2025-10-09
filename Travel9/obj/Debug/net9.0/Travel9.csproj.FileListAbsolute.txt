@@ -285,3 +285,5 @@ C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Trav
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\obj\Debug\net9.0\Travel9.pdb
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\obj\Debug\net9.0\Travel9.genruntimeconfig.cache
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\obj\Debug\net9.0\ref\Travel9.dll
+C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll

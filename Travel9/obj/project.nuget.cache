@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8mxmiOkTKn0=",
+  "dgSpecHash": "5K7cHov0XLw=",
   "success": true,
   "projectFilePath": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\Travel9.csproj",
   "expectedPackageFiles": [
@@ -71,9 +71,11 @@
     "C:\\Users\\mijnk\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.8.0\\microsoft.codeanalysis.workspaces.common.4.8.0.nupkg.sha512",
     "C:\\Users\\mijnk\\.nuget\\packages\\microsoft.diasymreader\\2.0.0\\microsoft.diasymreader.2.0.0.nupkg.sha512",
     "C:\\Users\\mijnk\\.nuget\\packages\\microsoft.dotnet.scaffolding.shared\\9.0.0\\microsoft.dotnet.scaffolding.shared.9.0.0.nupkg.sha512",
+    "C:\\Users\\mijnk\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.9\\microsoft.extensions.configuration.abstractions.9.0.9.nupkg.sha512",
     "C:\\Users\\mijnk\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0-rc.2.24473.5\\microsoft.extensions.dependencyinjection.9.0.0-rc.2.24473.5.nupkg.sha512",
     "C:\\Users\\mijnk\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0-rc.2.24473.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.0-rc.2.24473.5.nupkg.sha512",
     "C:\\Users\\mijnk\\.nuget\\packages\\microsoft.extensions.dependencymodel\\9.0.0-rc.2.24473.5\\microsoft.extensions.dependencymodel.9.0.0-rc.2.24473.5.nupkg.sha512",
+    "C:\\Users\\mijnk\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.9\\microsoft.extensions.primitives.9.0.9.nupkg.sha512",
     "C:\\Users\\mijnk\\.nuget\\packages\\microsoft.net.stringtools\\17.10.4\\microsoft.net.stringtools.17.10.4.nupkg.sha512",
     "C:\\Users\\mijnk\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\9.0.0\\microsoft.visualstudio.web.codegeneration.9.0.0.nupkg.sha512",
     "C:\\Users\\mijnk\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\9.0.0\\microsoft.visualstudio.web.codegeneration.core.9.0.0.nupkg.sha512",
