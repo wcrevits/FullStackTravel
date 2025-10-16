@@ -45,19 +45,55 @@
     </div>
 </div>
 
+<div>
+    <span>I travel so many days.</span>
+    <input type="text" id="DateResult" />
+</div>
+
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 
     <script>
         $(() => {
             let mindate = new Date();
-            $("$StartDate").flatpckr({
-                locale "nl",
+
+            const commonOptions = {
+                locale: "nl",
                 dateFormat: "Y-m-d",
                 showMonths: 3,
                 minDate: "today",
-                maxDate: mindate.fp_incr(90)
-            })
-        })
+                maxDate: mindate.fp_incr(90),
+                disable: [
+                    date => date.getDay() === 0 || date.getDay() === 6  
+                ],
+            };
+
+            $("#StartDate").flatpickr({
+                ...commonOptions,
+                onChange: (minDateStr) => {
+                    $("#EndDate").flatpickr({
+                        ...commonOptions,
+                        minDate: minDateStr[0],
+                        maxDate: minDateStr[0].fp_incr(90),
+                    });
+                }
+            });
+
+            $("#EndDate").flatpickr(commonOptions);
+
+            const calculateDays = () => {
+                if (!$('#StartDate').val() == "" || !$('#EndDate').val() == "") {
+                    let days = (new Date($('#EndDate').val())
+                        - new Date($('#StartDate').val()))
+                        / (1000 * 60 * 60 * 24);
+                    if (days) {
+                        $("#DateResult").val(days);
+                    }
+                }
+            }
+
+            $("#EndDate").on('change', calculateDays);
+            $("#StartDate").on('change', calculateDays);
+        });
     </script>
 }

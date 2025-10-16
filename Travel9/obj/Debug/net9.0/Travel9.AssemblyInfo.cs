@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Travel9")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35cc0b728be24e6cf6d99043586ff4810dfb8858")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72bebde4447c61d850d7d6d10361a71dcc356862")]
 [assembly: System.Reflection.AssemblyProductAttribute("Travel9")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Travel9")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
