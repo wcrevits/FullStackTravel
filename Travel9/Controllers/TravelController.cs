@@ -24,6 +24,15 @@ namespace Travel9.Controllers
             return View(travelVM);
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Index(TravelVM travelVM)
+        {
+            // call DB
+            travelVM.CountryList = await BuildCountryListAsync();
+
+            return View(travelVM);
+        }
+
         private async Task<List<SelectListItem>> BuildCountryListAsync()
         {
             try
@@ -42,6 +51,21 @@ namespace Travel9.Controllers
                      new SelectListItem { Text = "-- landen laden mislukt --", Value = "", Disabled = true, Selected = true }
                  };
             }
+        }
+
+        public async Task<IActionResult> IndexWithDatePicker()
+        {
+            var travelDatePickerVM = new TravelDatePickerVM { CountryList = await BuildCountryListAsync() };
+            return View(travelDatePickerVM);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> IndexWithDatePicker(TravelDatePickerVM travelDatePickerVM)
+        {
+            // call DB
+            travelDatePickerVM.CountryList = await BuildCountryListAsync();
+
+            return View(travelDatePickerVM);
         }
     }
 }

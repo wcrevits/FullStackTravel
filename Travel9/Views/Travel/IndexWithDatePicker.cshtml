@@ -1,0 +1,63 @@
+﻿@model Travel9.ViewModels.TravelDatePickerVM
+
+@{
+    ViewData["Title"] = "IndexWithDatePicker";
+}
+
+<h1>IndexWithDatePicker</h1>
+
+<h4>TravelDatePickerVM</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="IndexWithDatePicker">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="DepartureCode" class="control-label"></label>
+                <select class="form-control" asp-for="DepartureCode"
+                        asp-items="Model.CountryList">
+                    <option disabled selected value="">Select a Country</option>
+                </select>
+                <span asp-validation-for="DepartureCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ArrivalCode" class="control-label"></label>
+                <select class="form-control" asp-for="ArrivalCode"
+                        asp-items="Model.CountryList">
+                    <option disabled selected value="">Select a Country</option>
+                </select>
+                <span asp-validation-for="ArrivalCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EndDate" class="control-label"></label>
+                <input asp-for="EndDate" class="form-control" />
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Travel" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script>
+        $(() => {
+            let mindate = new Date();
+            $("$StartDate").flatpckr({
+                locale "nl",
+                dateFormat: "Y-m-d",
+                showMonths: 3,
+                minDate: "today",
+                maxDate: mindate.fp_incr(90)
+            })
+        })
+    </script>
+}

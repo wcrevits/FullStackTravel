@@ -287,3 +287,7 @@ C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Trav
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\obj\Debug\net9.0\ref\Travel9.dll
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\bin\Debug\net9.0\libman.json
+C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\obj\Debug\net9.0\compressed\5q05bz7gub-p7hj2jktuy.gz
+C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\obj\Debug\net9.0\compressed\iuzai4xauh-i8fj6rnb82.gz
+C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\obj\Debug\net9.0\compressed\14gork6yjh-8cbv29j3fl.gz

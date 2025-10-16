@@ -1,10 +1,12 @@
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\wwwroot\lib\flatpickr\l10n\nl.min.js
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\wwwroot\lib\jquery\dist\jquery.slim.js
+C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\wwwroot\lib\flatpickr\flatpickr.min.css
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
@@ -28,6 +30,7 @@ C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Trav
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\wwwroot\lib\flatpickr\flatpickr.min.js
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
 C:\Users\mijnk\Documents\Personal Documents\School\2025-2026\Full stack dev\Travel9\Travel9\wwwroot\lib\bootstrap\dist\js\bootstrap.js
@@ -108,6 +111,9 @@ wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\flatpickr\flatpickr.min.css
+wwwroot\lib\flatpickr\flatpickr.min.js
+wwwroot\lib\flatpickr\l10n\nl.min.js
 wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
