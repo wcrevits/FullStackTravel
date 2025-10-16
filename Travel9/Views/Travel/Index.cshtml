@@ -45,7 +45,8 @@
     </div>
 </div>
 <div>
-    <p id="OutputText">You will be traveling for 0 days.</p>
+    <span>I travel so many days.</span>
+    <input type="text" id="DateResult" />
 </div>
 
 
@@ -53,18 +54,40 @@
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
     <script>
   
-        window.addEventListener('load', () => {
+        /*window.addEventListener('load', () => {
             console.log('start')
-            let startDateElement = document.getElementById(StartDate);
-            let endDateElement = document.getElementById(EndDate);
-            let outputTextElement = document.getElementById(OutputText);
+            let startEl = document.getElementById("StartDate");
+            let endEl = document.getElementById("EndDate");
+            let outputTextElement = document.getElementById("DateResult");
+            console.log('test1')
+            endEl.addEventListener('focusout', () => {
+                if (!startEl?.value)
+                alert("don't forget the begindate");
 
-            let startDateDate = startDateElement.value;
-            let endDateDate = endDateElement.value;
+                    else {
+                        let days = (new Date(endEl.value) - new Date(startEl.value)) / (1000*60*60*24)
+                        outputTextElement.value = days;
+                    }
+            })
 
-            console.log(startDateDate)
-            console.log(endDateDate)
-        }            
+        })*/
+
+        /*Nu in JQuery:*/
+
+        $(() => {
+            console.log("start");
+
+            $("#EndDate").on('focusout', () => {
+                if ($('#StartDate').val() == "")
+                    alert("don't forget begindate");
+                else {
+                    let days = (new Date($('#EndDate').val())
+                        - new Date($('#StartDate').val()))
+                        / (1000 * 60 * 60 * 24);
+                    $("#DateResult").val(days);
+                }
+            })
+        });
     
     </script>
 }

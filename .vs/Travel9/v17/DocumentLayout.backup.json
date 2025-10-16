@@ -66,8 +66,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -136,14 +140,10 @@
               "RelativeDocumentMoniker": "Travel9\\Views\\Travel\\Index.cshtml",
               "ToolTip": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\Views\\Travel\\Index.cshtml*",
               "RelativeToolTip": "Travel9\\Views\\Travel\\Index.cshtml*",
-              "ViewState": "AgIAACoAAAAAAAAAAAAIwC0AAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwDUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-09T09:21:34.344Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             },
             {
               "$type": "Bookmark",
@@ -151,7 +151,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             },
             {
               "$type": "Document",

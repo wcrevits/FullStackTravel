@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{BBB0F523-DD05-4A55-8387-38D21F31339D}|Travel9\\Travel9.csproj|solutionrelative:travel9\\views\\travel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BBB0F523-DD05-4A55-8387-38D21F31339D}|Travel9\\Travel9.csproj|c:\\users\\mijnk\\documents\\personal documents\\school\\2025-2026\\full stack dev\\travel9\\travel9\\views\\country\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBB0F523-DD05-4A55-8387-38D21F31339D}|Travel9\\Travel9.csproj|solutionrelative:travel9\\views\\country\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB0F523-DD05-4A55-8387-38D21F31339D}|Travel9\\Travel9.csproj|c:\\users\\mijnk\\documents\\personal documents\\school\\2025-2026\\full stack dev\\travel9\\travel9\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{BBB0F523-DD05-4A55-8387-38D21F31339D}|Travel9\\Travel9.csproj|solutionrelative:travel9\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BBB0F523-DD05-4A55-8387-38D21F31339D}|Travel9\\Travel9.csproj|c:\\users\\mijnk\\documents\\personal documents\\school\\2025-2026\\full stack dev\\travel9\\travel9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBB0F523-DD05-4A55-8387-38D21F31339D}|Travel9\\Travel9.csproj|solutionrelative:travel9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,10 +59,6 @@
       "RelativeMoniker": "D:0:0:{BBB0F523-DD05-4A55-8387-38D21F31339D}|Travel9\\Travel9.csproj|solutionrelative:travel9\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBB0F523-DD05-4A55-8387-38D21F31339D}|Travel9\\Travel9.csproj|c:\\users\\mijnk\\documents\\personal documents\\school\\2025-2026\\full stack dev\\travel9\\travel9\\views\\country\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BBB0F523-DD05-4A55-8387-38D21F31339D}|Travel9\\Travel9.csproj|solutionrelative:travel9\\views\\country\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A8C7A12-9481-4623-BAAB-4332837F7CAC}|Travel.Services\\Travel.Services.csproj|c:\\users\\mijnk\\documents\\personal documents\\school\\2025-2026\\full stack dev\\travel9\\travel.services\\travel.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{0A8C7A12-9481-4623-BAAB-4332837F7CAC}|Travel.Services\\Travel.Services.csproj|solutionrelative:travel.services\\travel.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -66,27 +70,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CountryVM.cs",
-              "DocumentMoniker": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\ViewModels\\CountryVM.cs",
-              "RelativeDocumentMoniker": "Travel9\\ViewModels\\CountryVM.cs",
-              "ToolTip": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\ViewModels\\CountryVM.cs",
-              "RelativeToolTip": "Travel9\\ViewModels\\CountryVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T07:49:18.996Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "jquery.js",
+              "DocumentMoniker": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeDocumentMoniker": "Travel9\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ToolTip": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeToolTip": "Travel9\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANwpAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-16T07:50:54.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TravelController.cs",
               "DocumentMoniker": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\Controllers\\TravelController.cs",
               "RelativeDocumentMoniker": "Travel9\\Controllers\\TravelController.cs",
@@ -98,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "TravelService.cs",
               "DocumentMoniker": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel.Services\\TravelService.cs",
               "RelativeDocumentMoniker": "Travel.Services\\TravelService.cs",
@@ -110,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Travel9\\Controllers\\HomeController.cs",
@@ -122,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CountryController.cs",
               "DocumentMoniker": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\Controllers\\CountryController.cs",
               "RelativeDocumentMoniker": "Travel9\\Controllers\\CountryController.cs",
@@ -140,10 +141,39 @@
               "RelativeDocumentMoniker": "Travel9\\Views\\Travel\\Index.cshtml",
               "ToolTip": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\Views\\Travel\\Index.cshtml*",
               "RelativeToolTip": "Travel9\\Views\\Travel\\Index.cshtml*",
-              "ViewState": "AgIAACoAAAAAAAAAAAAIwDUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAIwEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-09T09:21:34.344Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\Views\\Country\\Index.cshtml",
+              "RelativeDocumentMoniker": "Travel9\\Views\\Country\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\Views\\Country\\Index.cshtml",
+              "RelativeToolTip": "Travel9\\Views\\Country\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T08:13:48.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CountryVM.cs",
+              "DocumentMoniker": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\ViewModels\\CountryVM.cs",
+              "RelativeDocumentMoniker": "Travel9\\ViewModels\\CountryVM.cs",
+              "ToolTip": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\ViewModels\\CountryVM.cs",
+              "RelativeToolTip": "Travel9\\ViewModels\\CountryVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T07:49:18.996Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             },
             {
               "$type": "Bookmark",
@@ -151,11 +181,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\Program.cs",
               "RelativeDocumentMoniker": "Travel9\\Program.cs",
@@ -167,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ITravelService.cs",
               "DocumentMoniker": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel.Services\\Interfaces\\ITravelService.cs",
               "RelativeDocumentMoniker": "Travel.Services\\Interfaces\\ITravelService.cs",
@@ -179,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "CountryApiDto.cs",
               "DocumentMoniker": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel.Services\\Integrations\\CountryApi\\DTO\\CountryApiDto.cs",
               "RelativeDocumentMoniker": "Travel.Services\\Integrations\\CountryApi\\DTO\\CountryApiDto.cs",
@@ -191,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "TravelVM.cs",
               "DocumentMoniker": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\ViewModels\\TravelVM.cs",
               "RelativeDocumentMoniker": "Travel9\\ViewModels\\TravelVM.cs",
@@ -203,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Travel9.csproj",
               "DocumentMoniker": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\Travel9.csproj",
               "RelativeDocumentMoniker": "Travel9\\Travel9.csproj",
@@ -215,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\appsettings.json",
               "RelativeDocumentMoniker": "Travel9\\appsettings.json",
@@ -227,19 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\Views\\Country\\Index.cshtml",
-              "RelativeDocumentMoniker": "Travel9\\Views\\Country\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel9\\Views\\Country\\Index.cshtml",
-              "RelativeToolTip": "Travel9\\Views\\Country\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-09T08:13:48.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Travel.Services.csproj",
               "DocumentMoniker": "C:\\Users\\mijnk\\Documents\\Personal Documents\\School\\2025-2026\\Full stack dev\\Travel9\\Travel.Services\\Travel.Services.csproj",
               "RelativeDocumentMoniker": "Travel.Services\\Travel.Services.csproj",
