@@ -23,11 +23,8 @@ namespace Travel.Services
 
         public async Task<List<CountryItem>?> GetCountryAsync()
         {
-
             try
             {
-
-
                 using (var httpClient = new HttpClient())
                 {
                     using (var response = await httpClient.GetAsync(apiBaseUrl))
@@ -38,16 +35,13 @@ namespace Travel.Services
                         //   ViewBag.CountryLst = countries != null ? countries.Select(x => new SelectListItem { Text = x.LocalizedName, Value = x.ID }).ToList() : null;
                         var items = root?.Data ?? new List<CountryItem>();
                         return items;
-
                     }
                 }
-
             }
             catch (HttpRequestException ex)
             {
                 // catch problem
                 return null;
-
             }
 
         }
